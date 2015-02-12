@@ -20,6 +20,7 @@
 +(id)itemWithLabel:(NSString *)inLabel{
     RIButtonItem * newItem = [self new];
     [newItem setLabel:inLabel];
+    
     return newItem;
 }
 
